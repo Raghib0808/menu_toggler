@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1vh;
+    margin-bottom: 4rem;
+
+}
+
+.heading{
+    text-align: center;
+      margin-bottom: 2rem;
+
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    margin: 0 auto;
+    gap: 4vh;
+    width: 90vw;
+    overflow: hidden;
+}
+
+.photo{
+    object-fit: cover;
+  height: 200px;
+}
+
+.info_card{
+    display: flex;
+    gap: 1vw;
+    
+    
+}
+
+.info{
+    display: flex;
+  justify-content: space-between;
+
+}
+.other{
+    width: 22vw;
+}
+
+.para{
+    margin-bottom: 0;
+  padding-top: 1rem;
+}
+
+p {
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    
+}
+
+.main{
+    padding: 5rem 0;
+}
+
+.option{
+        background: transparent;
+        font-size: 1rem;
+        text-transform: capitalize;
+        margin: 0 0.5rem;
+        letter-spacing: 1px;
+        padding: 0.375rem 0.75rem;
+        cursor: pointer;
+}
